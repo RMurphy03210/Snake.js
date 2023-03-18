@@ -17,7 +17,7 @@ export function update() {
         snakeBody[i + 1] = { ...snakeBody[i] };
     }
 
-
+    //Goes to 1st element in snakeBody array, accesses x or y property and increments in input direction
     snakeBody[0].x += inputDirection.x;
     snakeBody[0].y += inputDirection.y;
 }
